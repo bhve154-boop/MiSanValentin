@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            max-width: 400px;
+        }
+        h1 {
+            color: #ff4d6d;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #ff4d6d;
+            color: white;
+        }
+        .no {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>💖 Hola 💖</h1>
+        <p>No soy programador de sentimientos,<br>
+        pero hay algo que quiero preguntarte…</p>
+
+        <h2>¿Quieres ser mi San Valentín? 💌</h2>
+
+        <button class="yes" onclick="aceptar()">Sí 💕</button>
+        <button class="no" onclick="rechazar()">No 😅</button>
+    </div>
+
+    <script>
+        function aceptar() {
+            alert("💘 Sabía que dirías que sí 💘\nPrometo hacer de este San Valentín algo especial ✨");
+        }
+
+        function rechazar() {
+            alert("😢 Ok… igual gracias por leer hasta aquí 💗");
+        }
+    </script>
+</body>
+</html>
